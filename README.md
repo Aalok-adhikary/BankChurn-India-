@@ -1,4 +1,4 @@
-# 🧠 ChurnMind India: Bank Customer Churn Prediction
+# 🧠 BankChurn India: Bank Customer Churn Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red.svg)
@@ -8,7 +8,7 @@
 ![Status](https://img.shields.io/badge/Status-Deployable-success.svg)
 
 ## 📌 Overview
-**ChurnMind India** is an interactive web application that predicts bank customer churn using an Artificial Neural Network (ANN). Built with Streamlit, the project enables real-time analysis of customer data to assess churn risk and support strategic decision-making in the banking sector.
+**BankChurn India** is an interactive web application that predicts bank customer churn using an Artificial Neural Network (ANN). Built with Streamlit, the project enables real-time analysis of customer data to assess churn risk and support strategic decision-making in the banking sector.
 
 This project is tailored to Indian demographics and serves as an excellent portfolio piece for data science, machine learning, and fintech applications.
 
@@ -43,7 +43,7 @@ This project is tailored to Indian demographics and serves as an excellent portf
 ---
 
 ## 📸 Application Preview
-<img src="https://gttpw2xv5n7bm7wmnacubs.streamlit.app/1000x500.png?text=ChurnMind+India+Dashboard" alt="ChurnMind India Dashboard" width="100%">
+<img src="https://gttpw2xv5n7bm7wmnacubs.streamlit.app/" alt="BankChurn India Dashboard" width="100%">
 
 > 📌 Replace the placeholder with actual screenshots from your application.
 
@@ -60,5 +60,5 @@ Ensure you have the following installed:
 
 ### 🔹 Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/ChurnMind-India.git
-cd ChurnMind-India
+git clone https://github.com/your-username/BankChurn-India-.git
+cd BankChurn-India-
