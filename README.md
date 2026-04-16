@@ -42,10 +42,12 @@ This project is tailored to Indian demographics and serves as an excellent portf
 
 ---
 
-## 📸 Application Preview
-<img src="https://gttpw2xv5n7bm7wmnacubs.streamlit.app/" alt="BankChurn India Dashboard" width="100%">
+## Application
 
-> 📌 Replace the placeholder with actual screenshots from your application.
+[![Open App](https://gttpw2xv5n7bm7wmnacubs.streamlit.app/)
+
+
+
 
 ---
 
