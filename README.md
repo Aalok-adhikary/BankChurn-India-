@@ -4,7 +4,6 @@
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red.svg)
 ![TensorFlow](https://img.shields.io/badge/Deep%20Learning-TensorFlow-orange.svg)
 ![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-yellow.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Deployable-success.svg)
 
 ## 📌 Overview
