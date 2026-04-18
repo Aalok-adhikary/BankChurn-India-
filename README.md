@@ -1,123 +1,64 @@
-🏦 BankChurn India
+# 🧠 BankChurn India: Bank Customer Churn Prediction
 
-Next-Gen Customer Retention Intelligence for the Indian Banking Sector
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red.svg)
+![TensorFlow](https://img.shields.io/badge/Deep%20Learning-TensorFlow-orange.svg)
+![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Deployable-success.svg)
 
-🌟 Executive Summary
+## 📌 Overview
+**BankChurn India** is an interactive web application that predicts bank customer churn using an Artificial Neural Network (ANN). Built with Streamlit, the project enables real-time analysis of customer data to assess churn risk and support strategic decision-making in the banking sector.
 
-BankChurn India is a sophisticated predictive analytics platform designed to address one of the most critical challenges in the Indian financial landscape: Customer Attrition.
+This project is tailored to Indian demographics and serves as an excellent portfolio piece for data science, machine learning, and fintech applications.
 
-By leveraging an Artificial Neural Network (ANN), this application processes complex customer behavioral patterns—tailored specifically to Indian demographics—to predict churn risk with high precision. This allows banking institutions to transition from reactive to proactive retention strategies.
+---
 
-🚀 Access the Live Dashboard
+## 🚀 Features
+- 📊 **ANN-Based Churn Prediction** – Estimates the likelihood of customer attrition.
+- 🖥️ **Interactive Dashboard** – User-friendly interface powered by Streamlit.
+- 🇮🇳 **India-Centric Dataset Simulation** – Designed around Indian regions and financial parameters.
+- ⚡ **Real-Time Predictions** – Instant results based on user inputs.
+- 📈 **Insightful Analytics** – Displays churn risk levels and customer metrics.
+- 🎯 **Easily Deployable** – Runs seamlessly on any local machine.
+- 📚 **Educational & Portfolio-Ready** – Ideal for academic and professional showcase.
 
-✨ Key Value Propositions
+---
 
-Feature
 
-Description
+---
 
-🧠 Deep Learning Engine
+## 🧠 Model Information
 
-Powered by a multi-layer ANN optimized for binary classification tasks.
+| Attribute | Details |
+|-----------|---------|
+| Model Type | Artificial Neural Network (ANN) |
+| Architecture | Input Layer → 2 Hidden Layers → Output Layer |
+| Activation Functions | ReLU (Hidden Layers), Sigmoid (Output Layer) |
+| Optimizer | Adam |
+| Loss Function | Binary Cross-Entropy |
+| Accuracy | ~86% (Case Study Simulation) |
+| Frameworks | TensorFlow, Scikit-learn |
 
-🇮🇳 Geo-Specific Logic
+---
 
-Account parameters and demographic features tuned for the Indian market.
+## Application
 
-⚡ Real-Time Inference
+[![Open App] https://gttpw2xv5n7bm7wmnacubs.streamlit.app/
 
-Dynamic risk scoring as you toggle customer parameters.
 
-📊 Analytical Depth
 
-Visualizes not just the "if" but the "why" behind customer churn.
+---
 
-📱 Responsive UI
+## ⚙️ Installation and Setup
 
-A sleek, modern dashboard built for both desktop and mobile viewing.
+### 🔹 Prerequisites
+Ensure you have the following installed:
+- Python 3.9 or higher
+- pip (Python Package Manager)
 
-🛠️ Technical Architecture
+---
 
-The Neural Core
-
-The model is architected to capture non-linear relationships between financial variables:
-
-Input Layer: Processes 10+ customer features (Credit Score, Geography, Gender, Age, Tenure, Balance, etc.).
-
-Hidden Layers: Two dense layers utilizing the ReLU activation function for feature extraction.
-
-Output Layer: A Sigmoid neuron producing a probability score between $0$ and $1$.
-
-Optimization: Adam Optimizer with Binary Cross-Entropy loss function.
-
-Tech Stack
-
-Frontend: Streamlit (Reactive Web Framework)
-
-Machine Learning: TensorFlow / Keras
-
-Data Processing: Scikit-Learn, Pandas, NumPy
-
-Styling: Custom CSS for a premium "Midnight Blue" FinTech theme
-
-📈 Model Performance Metrics
-
-Based on case study simulations, the model achieves robust performance indicators:
-
-$$\text{Accuracy} \approx 86\%$$
-
-$$\text{Precision} \approx 84\%$$
-
-The model is specifically trained to minimize False Negatives, ensuring that high-risk customers are rarely missed.
-
-⚙️ Quick Start Guide
-
-1. Prerequisites
-
-Python 3.9+
-
-Virtual Environment (Recommended)
-
-2. Installation
-
-# Clone the repository
-git clone [https://github.com/Aalok-adhikary/BankChurn-India-.git](https://github.com/Aalok-adhikary/BankChurn-India-.git)
-
-# Navigate to the directory
+### 🔹 Step 1: Clone the Repository
+```bash
+git clone https://github.com/Aalok-adhikary/BankChurn-India-.git
 cd BankChurn-India-
-
-# Install dependencies
-pip install -r requirements.txt
-
-
-3. Execution
-
-streamlit run app.py
-
-
-📂 Project Structure
-
-├── app.py              # Streamlit Web Application
-├── model.h5            # Pre-trained ANN Model
-├── scaler.pkl          # Feature Scaling object
-├── dataset/            # Historical data samples
-└── requirements.txt    # Project Dependencies
-
-
-🤝 Contribution & License
-
-Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-Distributed under the MIT License. See LICENSE for more information.
-
-Developed with ❤️ by Aalok Adhikary
