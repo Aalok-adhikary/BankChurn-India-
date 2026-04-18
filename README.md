@@ -43,8 +43,7 @@ This project is tailored to Indian demographics and serves as an excellent portf
 
 ## Application
 
-[![Open App] https://gttpw2xv5n7bm7wmnacubs.streamlit.app/
-![Open APP](https://img.shields.io/badge/BankChurn_India-blue.svg)(https://gttpw2xv5n7bm7wmnacubs.streamlit.app/)
+**Open App** https://gttpw2xv5n7bm7wmnacubs.streamlit.app/
 
 ---
 
